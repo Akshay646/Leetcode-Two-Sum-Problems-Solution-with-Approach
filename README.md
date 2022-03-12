@@ -10,3 +10,4 @@ but if we sort the array then indices will change so our output never will be as
 6. we will store pairs of array element and its indices during traversing he array. 
 7. Then sort the vector of pairs ascendingly, this will help to unchange the indices of array elements, it will sort the vector of pairs with its genuine indices.
 8. And finally we will use two pointer approach on the sorted vectors of pairs.
+9. std::sort() uses Introsort having NLogN time so we can expect the total time complexity to NlogN.
